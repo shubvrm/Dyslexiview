@@ -36,11 +36,22 @@ body {
   font-family: 'Centra', sans-serif !important;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h6 {
   margin: 0;
   padding: 0;
   line-height: normal;
 }
+h4{
+  font-weight: bold;
+  padding-top: 30px;
+  font-family: OpenDyslexic;
+}
+
+h5{
+  color: #444444;
+  font-family: OpenDyslexic;
+}
+
 
 p, a, li, button, ul {
   margin: 0;
@@ -92,18 +103,19 @@ nav.navbar {
 }
 nav.navbar.scrolled {
   padding: 0px 0;
-  background-color: #121212;
+  backdrop-filter: blur(50px);
 }
 nav.navbar a.navbar-brand {
     width: 9%;
 }
 nav.navbar .navbar-nav .nav-link.navbar-link {
-  font-weight: 400;
+  font-weight: 700;
   color: rgba(49, 11, 34, 1) !important;
   letter-spacing: 0.8px;
   padding: 0 25px;
   font-size: 18px;
   opacity: 0.75;
+  font-family: OpenDyslexic;
 }
 nav.navbar .navbar-nav a.nav-link.navbar-link:hover,
 nav.navbar .navbar-nav a.nav-link.navbar-link.active {
@@ -128,6 +140,7 @@ span.navbar-text {
     justify-content: center;
     line-height: 1;
     border: 1px solid rgba(255, 255, 255, 0.5);
+    font-family: OpenDyslexic;
 }
 .social-icon a::before {
     content: "";
@@ -138,6 +151,7 @@ span.navbar-text {
     border-radius: 50%;
     transform: scale(0);
 	transition: 0.3s ease-in-out;
+  font-family: OpenDyslexic;
 }
 .social-icon a:hover::before {
     transform: scale(1);
@@ -151,7 +165,7 @@ span.navbar-text {
 	filter: brightness(0) saturate(100%) invert(0%) sepia(7%) saturate(98%) hue-rotate(346deg) brightness(95%) contrast(86%);
 }
 .navbar-text button {
-  font-weight: 700;
+  font-weight: 1000;
   color: rgba(49, 11, 34, 1);
   border: 1px solid rgba(49, 11, 34, 1);
   padding: 18px 34px;
@@ -160,6 +174,7 @@ span.navbar-text {
 	position: relative;
 	background-color: transparent;
 	transition: 0.3s ease-in-out;
+  font-family: OpenDyslexic;
 }
 .navbar-text button span {
   z-index: 1;
@@ -248,6 +263,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-size: 20px;
   margin-bottom: 16px;
   display: inline-block;
+  font-family: OpenDyslexic;
 }
 .banner h1 {
   color: rgba(49, 11, 34, 1);
@@ -257,6 +273,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   line-height: 1;
   margin-bottom: 20px;
   display: block;
+  font-family: OpenDyslexic;
 }
 .banner p {
   color: rgba(49, 11, 34, 1);
@@ -264,6 +281,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   letter-spacing: 0.8px;
   line-height: 1.5em;
   width: 96%;
+  font-weight: bold;
+  font-family: OpenDyslexic;
 }
 .banner button {
   color: rgba(49, 11, 34, 1);
@@ -273,6 +292,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   letter-spacing: 0.8px;
   display: flex;
   align-items: center;
+  font-family: OpenDyslexic;
 }
 .banner button svg {
   font-size: 25px;
@@ -345,7 +365,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .project {
   padding: 80px 0;
   position: relative;
-  background-color: black;
+  background-image: url('./assets/img/project2.jpg');
 }
 .project h2 {
 	font-size: 45px;
@@ -353,7 +373,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   text-align: center;
 }
 .project p {
-  color: #B8B8B8;
+  color: #f4efef;
   font-size: 18px;
   letter-spacing: 0.8px;
   line-height: 1.5em;
@@ -493,6 +513,30 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   letter-spacing: 0.8px;
   transition: 0.3s ease-in-out;
 }
+
+.ginput{
+  width: 100%;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(232, 25, 25, 0.5);
+  border-radius: 20px;
+  color: #000000;
+  margin: 10px 0 8px 0;
+  padding: 18px 26px;
+  font-weight: 500;
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  transition: 0.3s ease-in-out;
+}
+
+.inference{
+  color:#000
+}
+
+.inference h2{
+  color:#000
+}
+
+
 .contact form input:focus, .contact form textarea:focus {
   background: rgba(255, 255, 255, 1);
   color: #121212;
@@ -546,28 +590,57 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
+  font-family: OpenDyslexic;
 }
+
+.footer2 {
+  padding: 50px 0 50px 0;
+  background-color: #000;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: OpenDyslexic;
+}
+
+.invert{
+  color: #fff;
+}
+
+
+
 .newsletter-bx {
-  background: #FFFFFF;
+  background-image: url('./assets/img/project4.jpg');
   border-radius: 55px;
   color: #121212;
   padding: 85px 125px;
   margin-bottom: -80px;
   margin-top: -122px;
+  font-family: OpenDyslexic;
 }
+.newsletter-gx {
+  background: linear-gradient(90.21deg, #9a246b -5.91%, #4A2FBD 111.58%);
+  border-radius: 55px;
+  color: #121212;
+  padding: 85px 125px;
+  font-family: OpenDyslexic;
+}
+
+
 .newsletter-bx h3 {
   font-weight: 700;
   letter-spacing: 0.5px;
   line-height: 1.2em;
+  font-family: OpenDyslexic;
 }
 .new-email-bx {
   background: #fff;
-  padding: 5px;
+  padding: 30px;
   border-radius: 20px;
   position: relative;
   z-index: 0;
   display: flex;
   align-items: center;
+  font-family: OpenDyslexic;
 }
 .new-email-bx::before {
   content: "";
@@ -607,6 +680,16 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   letter-spacing: 0.5px;
   border-radius: 18px;
 }
+
+.new-email-bx-button {
+  background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+  padding: 20px 65px;
+  color: #fff;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  border-radius: 18px;
+}
+
 .footer img {
   width: 26%;
 }

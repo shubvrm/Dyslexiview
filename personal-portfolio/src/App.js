@@ -8,6 +8,7 @@ import { Projects } from "./components/Projects";
 import { Contact } from "./components/Contact";
 import { Footer } from "./components/Footer";
 import { Input } from "./components/Input";
+import { Footer2 } from "./components/Footer2";
 
 function App() {
   return (
@@ -15,9 +16,7 @@ function App() {
       <NavBar />
       <Banner />
       <Footer />
-      <Contact />
-      <Projects />
-      <Skills />
+      <Footer2 />
     </div>
   );
 }
