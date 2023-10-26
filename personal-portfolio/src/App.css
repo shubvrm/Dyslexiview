@@ -42,13 +42,14 @@ h1, h2, h3, h6 {
   line-height: normal;
 }
 h4{
+  color: rgba(49, 11, 34, 1);
   font-weight: bold;
   padding-top: 30px;
   font-family: OpenDyslexic;
 }
 
 h5{
-  color: #444444;
+  color: rgba(49, 11, 34, 1);
   font-family: OpenDyslexic;
 }
 
@@ -611,7 +612,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .newsletter-bx {
   background-image: url('./assets/img/project4.jpg');
   border-radius: 55px;
-  color: #121212;
+  color: rgba(49, 11, 34, 1);
   padding: 85px 125px;
   margin-bottom: -80px;
   margin-top: -122px;

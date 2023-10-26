@@ -59,7 +59,7 @@ export const Footer = ({ onFileSelected }) => {
 
 
   return (
-    <footer className="footer">
+    <footer className="footer" id="footer">
       <Container>
         <Row>
           <Col lg={12}>
@@ -78,20 +78,20 @@ export const Footer = ({ onFileSelected }) => {
                 </Row>
                 <Row>
                   <Col>
-                  {file && <h4>Selected Image:</h4>}
+                  {file && <h4><b><u>Selected Image:</u></b></h4>}
                   {file && <img src={file} alt="Selected" style={{ width: '300px' }} />}
                   </Col>
                   <Col size={50}>
-                  {originalText && <h4><u>Extracted Text:</u></h4>}
+                  {originalText && <h4><b><u>Extracted Text:</u></b></h4>}
                   {originalText && <h5>{originalText}</h5>}
-                  {summarizedText && <h4><u>Summarized Text:</u></h4>}
+                  {summarizedText && <h4><b><u>Summarized Text:</u></b></h4>}
                   {summarizedText && <h5>{summarizedText}</h5>}
                   </Col>
                   <Row>
                     <Col>
                     {summarizedSound && (
                     <div>
-                    <h4><u>Summarized Sound:</u></h4>
+                    <h4><b><u>Summarized Sound:</u></b></h4>
                     <AudioPlayer>
                     {/* Include content for AudioPlayer component here */}
                     </AudioPlayer>
@@ -101,7 +101,7 @@ export const Footer = ({ onFileSelected }) => {
                     <Col>
                     {originalSound && (
                     <div>
-                    <h4><u>Original Sound:</u></h4>
+                    <h4><b><u>Original Sound:</u></b></h4>
                     <AudioPlayer2>
                     {/* Include content for AudioPlayer component here */}
                     </AudioPlayer2>

@@ -45,12 +45,18 @@ export const NavBar = () => {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
               <Nav.Link href="#home" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')}>Home</Nav.Link>
-              <Nav.Link href="#skills" className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('skills')}>Model</Nav.Link>
-              <Nav.Link href="#projects" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')}>Read</Nav.Link>
+              <Nav.Link className={activeLink === 'footer' ? 'active navbar-link' : 'navbar-link'} 
+  href="https://www.researchgate.net/publication/333044728_Proposed_user_interface_design_criteria_for_children_with_dyslexia" 
+  target="_blank" // This will open the link in a new tab
+>
+  Read More
+</Nav.Link>
+
+              <Nav.Link href="#projects" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')}>Ideation</Nav.Link>
             </Nav>
             <span className="navbar-text">
               <HashLink to='#footer'>
-                <button className="vvd"><span>Try it!</span></button>
+                <button><span>Try it!</span></button>
               </HashLink>
             </span>
           </Navbar.Collapse>

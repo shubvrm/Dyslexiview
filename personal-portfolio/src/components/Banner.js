@@ -4,6 +4,11 @@ import headerImg from "../assets/img/banner3.png";
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 import 'animate.css';
 
+const scrollToFooter = () => {
+  const footer = document.getElementById('footer');
+  footer.scrollIntoView({ behavior: 'smooth' });
+};
+
 export const Banner = () => {
   const [loopNum, setLoopNum] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
@@ -68,9 +73,9 @@ export const Banner = () => {
                 Text-to-Speech (TTS). We're a team from PES University, EC
                 Campus, and we're here for you!
               </p>
-              <button onClick={() => console.log("connect")}>
-                Discover More <ArrowRightCircle size={25} />
-              </button>
+              <button onClick={() => scrollToFooter()}>
+          Discover More <ArrowRightCircle size={25} />
+        </button>
             </div>
           </Col>
           <Col xs={12} md={6} xl={5}>
