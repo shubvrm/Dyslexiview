@@ -36,7 +36,7 @@ Your app is ready to be deployed!
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information. -->
 
 ![alt text](src/assets/1.jpeg)
-![alt text](D:\DyslexieView\dyslexiview\app\src\assets\2.jpeg)
-![alt text](D:\DyslexieView\dyslexiview\app\src\assets\3.jpeg)
-![alt text](D:\DyslexieView\dyslexiview\app\src\assets\4.jpeg)
-![alt text](D:/DyslexieView/dyslexiview/app/src/assets/5.jpeg)
+![alt text](src/assets/2.jpeg)
+![alt text](src/assets/3.jpeg)
+![alt text](src/assets/4.jpeg)
+![alt text](src/assets/5.jpeg)
