@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import AudioPlayer from 'D:/Project Docs/web-dev-projects-main/web-dev-projects-main/personal-portfolio/src/AudioPlayer.js';
-import AudioPlayer2 from 'D:/Project Docs/web-dev-projects-main/web-dev-projects-main/personal-portfolio/src/AudioPlayer2.js';
+import AudioPlayer from 'D:/DyslexieView/dyslexiview/app/src/AudioPlayer.js';
+import AudioPlayer2 from 'D:/DyslexieView/dyslexiview/app/src/AudioPlayer2.js';
 import logo from "../assets/img/logo.svg";
 import navIcon1 from "../assets/img/nav-icon1.svg";
 import navIcon2 from "../assets/img/nav-icon2.svg";

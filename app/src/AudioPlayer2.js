@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Sound from 'react-sound'; 
-import wav2 from 'D:/Project Docs/web-dev-projects-main/web-dev-projects-main/personal-portfolio/src/2.wav';
+import wav2 from 'D:/DyslexieView/dyslexiview/app/src/AudioPlayer2.js';
 
 const PlaySound = ({
   handleSongLoading,
